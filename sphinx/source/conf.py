@@ -115,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tkoyam010doc'
+htmlhelp_basename = 'tkoyam010'
 
 
 # -- Options for LaTeX output ---------------------------------------------
