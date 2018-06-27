@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# tkoyama010.github.io documentation build configuration file, created by
-# sphinx-quickstart on Wed Jun 27 11:19:15 2018.
+# tkoyam010 documentation build configuration file, created by
+# sphinx-quickstart on Wed Jun 27 11:26:17 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -32,11 +32,10 @@
 # ones.
 extensions = ['sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax']
+    'sphinx.ext.imgmath']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['stemplates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -48,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'tkoyama010.github.io'
+project = u'tkoyam010'
 copyright = u'2018, Tetsuo Koyama'
 author = u'Tetsuo Koyama'
 
@@ -96,7 +95,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['sstatic']
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -114,7 +113,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tkoyama010githubiodoc'
+htmlhelp_basename = 'tkoyam010doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -141,7 +140,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tkoyama010githubio.tex', u'tkoyama010.github.io Documentation',
+    (master_doc, 'tkoyam010.tex', u'tkoyam010 Documentation',
      u'Tetsuo Koyama', 'manual'),
 ]
 
@@ -151,7 +150,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tkoyama010githubio', u'tkoyama010.github.io Documentation',
+    (master_doc, 'tkoyam010', u'tkoyam010 Documentation',
      [author], 1)
 ]
 
@@ -162,32 +161,11 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'tkoyama010githubio', u'tkoyama010.github.io Documentation',
-     author, 'tkoyama010githubio', 'One line description of project.',
+    (master_doc, 'tkoyam010', u'tkoyam010 Documentation',
+     author, 'tkoyam010', 'One line description of project.',
      'Miscellaneous'),
 ]
 
-
-
-# -- Options for Epub output ----------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_copyright = copyright
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
-
-# A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html']
 
 
 
