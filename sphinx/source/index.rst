@@ -11,7 +11,7 @@
    :caption: 目次:
 
    getfem_code_reading/index.rst
-   symposium
+   getfem_translation/index.rst
 
 `Getfem++日本語ページ <https://tkoyama010.github.io/getfem-docs-html-ja>`_
 
