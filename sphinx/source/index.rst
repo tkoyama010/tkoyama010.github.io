@@ -8,7 +8,9 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目次:
+
+   symposium
 
 `Getfem++日本語ページ <https://tkoyama010.github.io/getfem-docs-html-ja>`_
 
