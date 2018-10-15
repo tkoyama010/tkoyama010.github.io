@@ -142,8 +142,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tkoyam010.tex', u'tkoyam010 Documentation',
-     u'Tetsuo Koyama', 'manual'),
+    ('getfem_examples/index', 'getfem_examples.tex', u'実例で学ぶGetFEM++',
+     u'Tetsuo Koyama', 'manual')
 ]
 
 
